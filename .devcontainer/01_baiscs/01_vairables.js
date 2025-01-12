@@ -14,7 +14,7 @@ let accountstate;
 console.log(accountid); 
 
 
-/*
+/* 
 perfer not to use var
 because issue in block scope and functional scope 
 */
