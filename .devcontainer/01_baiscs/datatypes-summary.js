@@ -21,17 +21,41 @@ const bigNumber = 26872325596332255563614782n
 
 // nonprmitive / refernce => array, objects , functions
 
-//const heros = [shatiman, superman]
-//let myObj = { 
-    name: "Rutuja" 
-    age : 23,
-//}
+const heros = ["shatiman", "superman"]
+let myObj = { 
+    name: "Rutuja",
+    age: "23",
+};
 
 
-const myfunction = function(){
+ const myfunction = function(){
     console.log("Hello world "); 
 }
 
-// type of operator read pending 
+// type of operator read pending
+ console.log(typeof outsidetemp);
 
-//console.log(typeof myfunction);
+//********************************************
+
+// stack (prmitive) , heap (non prmitive)
+
+let myYoutubename = "Rutujamirkalecom "
+let anothername = myYoutubename
+anothername = "chai aur code"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userone = {
+    email: "user@google.com",
+    Upi: "user@ybbl",
+}
+
+let usertwo = userone
+
+usertwo.email = "ruruja@google.com"
+ 
+console.log(userone.email);
+console.log(usertwo.email);
+
+
+ 
